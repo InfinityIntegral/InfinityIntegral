@@ -26,3 +26,7 @@ Current 05524F.sg projects include:<br>
 - [ ] SGEXTN - Qt Quick wrapper for easier software development<br>
 - [ ] SingScript.sg - font to display Math and Science symbols<br>
 - [ ] SingNote.sg - note taking application<br>
+
+## Am I blur
+
+no
