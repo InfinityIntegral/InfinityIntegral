@@ -22,7 +22,7 @@ Hi, I am Tianle, a student from Singapore. On my GitHub is my projects typically
 
 You may have noticed this organisation name in my applications. This is my "organisation name" when I am coding my own projects. The mission of 05524F is to build free and open source software for everyone in Singapore and beyond.
 
-Current 05524F.sg projects include:<br>
+05524F.sg projects include:<br>
 - [ ] SGEXTN - Qt Quick wrapper for easier software development<br>
 - [ ] SingScript.sg - font to display Math and Science symbols<br>
 - [ ] SingNote.sg - note taking application<br>
@@ -33,11 +33,13 @@ SGEXTN, short for "SG Extension" or "The Singaporean Extension", is my project t
 
 Development for SGEXTN is active since I am building SGEXTN v4. This is expected to be the final major version of SGEXTN, but since originally I only planned 1 version, so that can change.
 
+Recently you do not see much happening on the repository because SingScript v2 is a dependency of SGEXTN v4 and I am busy building that.
+
 ### [SingScript.sg](https://github.com/InfinityIntegral/SingScript.sg) (active)
 
-SingScript is NOT a scripting language. It is just a font that is supposed to display Math and Science symbols. I am building this because it is required for some input fields in SGEXTN v4. The font is based from my own handwriting and its old name was "PrimaryScript for Learning and Examinations (PSLE)".
+SingScript is NOT a scripting language. It is just a font that is supposed to display Math and Science symbols. I am building SingScript v2 because it is required for some input fields in SGEXTN v4. The font is based from my own handwriting and the "core" module is identical to SingScript v1.
 
-I plan to rebuild the font soon because the stroke weight for the current SingScript version is too big, so it would not work for some detailed mathematical symbols.
+The font is split into modules with each module covering a certain use case, such as Math symbols or Optical Answer Sheet stuff. Unfortunately, this does not work at all with Qt, so once the font is done, I will make a file containing all the modules. If you need only certain modules, you can make your own SingScript subsets using the "merge font" functionality in FontForge.
 
 ### [SingNote.sg](https://github.com/InfinityIntegral/SingNote.sg) (paused)
 
