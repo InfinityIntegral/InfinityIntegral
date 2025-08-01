@@ -4,8 +4,9 @@
 手握着手　形成世界新领域 (Hand in hand, we build a Singaporean dimension in this world) <br>
 就凭一颗心可以　打造奇迹 (With just one heart, we can create miracles) <br>
 再高的天　也触手可及 (Even the highest sky is within our reach) <br>
-(晴空万里, NDP 2008 Chinese / 华文 version) <br>
-("Singaporean dimension": [SGEXTN](https://github.com/InfinityIntegral/SGEXTN))
+(晴空万里, NDP 2008 Chinese / 华文 version)
+
+"Singaporean dimension": [SGEXTN](https://github.com/InfinityIntegral/SGEXTN)
 
 # My Profile
 
