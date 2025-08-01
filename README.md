@@ -1,10 +1,10 @@
 ![image of Singapore flag emoji](./flagemoji.png)
 
-"We raised our flag upon the shore,<br>
-and sang out We Are Singapore,<br>
-we've learnt that home is really more than just a word,<br>
-today, tomorrow this will always be my home"<br>
-(These Are the Days, 2015)
+什么是勇气 (What is courage?) <br>
+手握着手　形成世界新领域 (Hand in hand, we build a Singaporean dimension in this world) <br>
+就凭一颗心可以　打造奇迹 (Only with our heart, we will create miracles) <br>
+再高的天　也触手可及 (No matter how high the sky is, we can always reach it) <br>
+(晴空万里, NDP 2008 Chinese / 华文 version)
 
 # My Profile
 
