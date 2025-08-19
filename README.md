@@ -25,18 +25,16 @@ Hi, I am Tianle, a student from Singapore. On my GitHub is my projects typically
 You may have noticed this organisation name in my applications. This is my "organisation name" when I am coding my own projects. The mission of 05524F is to build free and open source software for everyone in Singapore and beyond.
 
 05524F.sg projects include:<br>
-- [ ] SGEXTN - Qt Quick wrapper for easier software development<br>
+- [x] SGEXTN - Qt Quick wrapper for easier software development<br>
 - [x] SingScript.sg - font to display Math and Science symbols
 
-### [SGEXTN](https://github.com/InfinityIntegral/SGEXTN) (active)
+### [SGEXTN](https://github.com/InfinityIntegral/SGEXTN) (completed)
 
-SGEXTN, short for "SG Extension" or "The Singaporean Extension", is my project to add a wrapper layer over Qt Quick to eliminate the need for declarative UI, QML, and JavaScript. Using SGEXTN feels like QWidget, but less powerful because I only included parts that I will use in my projects. For the things that I did not include, you can always add custom components in your applications. SGEXTN allows you to use imperative UI and code everything in C++, because J@v@scr!pt is exceptionally blur (literally, it has no clarity of types).
-
-Development for SGEXTN is active since I am building SGEXTN v5. This is expected to be the final major version of SGEXTN, but I have been saying that while building v4 so maybe there will be a v6?
+SGEXTN is my own framework built on top of Qt Quick. It contains many utilities necessary to build apps, such as file system access and a struct for colours. The SGWidget GUI toolkit allows you to build GUI apps without using a single line of QML or JavaScript, without using signal-slot, and without QObject. SGEXTN is currently on version 5.0.0 and is suitable for development use.
 
 ### [SingScript.sg](https://github.com/InfinityIntegral/SingScript.sg) (completed)
 
-SingScript is NOT a scripting language. It is just a font that is supposed to display Math and Science symbols. The font is split into modules with each module covering a certain use case, such as Math symbols or Optical Answer Sheet stuff. Unfortunately, this does not work at all with Qt, so there is also a "everything" module with all supported characters in the same font file. If you need only certain modules, you can make your own SingScript subsets using the "merge font" functionality in FontForge. SingScript v2 has been completed already.
+SingScript is NOT a scripting language. It is a font specialised in displaying Math, Science, and Computer Science symbols. The font includes a wide range of symbols in different modules, including superscripts, subscripts, Math operators, control pictures, table mockups, and Optical Answer Sheet bubbles. There is also a "everything" module for Qt compatibility. SingScript is on version 2.0.0 and is packaged as part of SGEXTN.
 
 ## Am I blur
 
