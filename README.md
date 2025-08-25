@@ -10,7 +10,7 @@
 
 # My Profile
 
-Hi, I am Tianle, a student from Singapore. On my GitHub is my projects typically using SGEXTN (my own extension layer over Qt Quick) and written in C++. Currently, I am working on SGEXTN v5.0.0, the code is completed but I am building the documentation site.
+Hi, I am Tianle, a student from Singapore. On my GitHub is my projects typically using SGEXTN (my own extension layer over Qt Quick) and written in C++. Currently, I am working on SGEXTN v5.1.0.
 
 ## languages and tools
 
@@ -28,9 +28,9 @@ You may have noticed this organisation name in my applications. This is my "orga
 - [x] SGEXTN - Qt Quick wrapper for easier software development<br>
 - [x] SingScript.sg - font to display Math and Science symbols
 
-### [SGEXTN](https://github.com/InfinityIntegral/SGEXTN) (completed)
+### [SGEXTN](https://github.com/InfinityIntegral/SGEXTN) (ongoing)
 
-SGEXTN is my own framework built on top of Qt Quick. It contains many utilities necessary to build apps, such as file system access and a struct for colours. The SGWidget GUI toolkit allows you to build GUI apps without using a single line of QML or JavaScript, without using signal-slot, and without QObject. SGEXTN is currently on version 5.0.0 and is suitable for development use.
+SGEXTN is my own framework built on top of Qt Quick. It contains many utilities necessary to build apps, such as file system access and a struct for colours. The SGWidget GUI toolkit allows you to build GUI apps without using a single line of QML or JavaScript, without using signal-slot, and without QObject. SGEXTN is currently on version 5.0.0 and is suitable for development use. However, I have thought of a bit more changes and will be upgrading it to version 5.1.0 soon.
 
 ### [SingScript.sg](https://github.com/InfinityIntegral/SingScript.sg) (completed)
 
