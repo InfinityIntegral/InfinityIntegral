@@ -10,7 +10,7 @@
 
 # My Profile
 
-Hi, I am Tianle, a student from Singapore. On my GitHub is my projects typically using SGEXTN (my own extension layer over Qt Quick) and written in C++. Currently, I am working on the demo app for SGEXTN.
+Hi, I am Tianle, a student from Singapore. On my GitHub is my projects typically using SGEXTN (my own extension layer over Qt Quick) and written in C++. Currently, I am working on writing notes / course slides for learning C++.
 
 ## languages and tools
 
