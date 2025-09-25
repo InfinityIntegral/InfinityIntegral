@@ -1,4 +1,4 @@
-![image of Singapore flag emoji](./flagemoji.png)
+![image of Singapore flag emoji](flag.png)
 
 什么是勇气 (What is courage?) <br>
 手握着手　形成世界新领域 (Hand in hand, we build a Singaporean dimension in this world) <br>
