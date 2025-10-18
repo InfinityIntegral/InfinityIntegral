@@ -1,12 +1,14 @@
 ![image of Singapore flag emoji](flag.png)
 
-什么是勇气 (What is courage?) <br>
-手握着手　形成世界新领域 (Hand in hand, we build a Singaporean dimension in this world) <br>
-就凭一颗心可以　打造奇迹 (With just one heart, we can create miracles) <br>
-再高的天　也触手可及 (Even the highest sky is within our reach) <br>
-(晴空万里, NDP 2008 Chinese / 华文 version)
+So now we begin, working together to win <br>
+Believing in trust, it must be possible to overcome anything <br>
+There's so much to do, there's so much we can contribute <br>
+By sharing just a little love, we'll start again anew <br>
 
-"Singaporean dimension": [SGEXTN](https://github.com/InfinityIntegral/SGEXTN) ([Docs here](https://infinityintegral.github.io))
+So why don't we try? If we stand side by side <br>
+I know we'll build [a new world, a world of hope for ever after](https://github.com/InfinityIntegral/SGEXTN) [(documentation here)](https://infinityintegral.github.io) <br>
+
+(We Will Get There, NDP 2002)
 
 # My Profile
 
