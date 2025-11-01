@@ -20,7 +20,7 @@ Hi, I am Tianle, a student from Singapore. On my GitHub is my projects typically
 💚 Qt framework<br>
 💚 Qt Quick<br>
 💚 GLSL (compiled with QSB)<br>
-💙 C++
+💙 C++ <br>
 💙 CMake
 
 ## 05524F.sg
