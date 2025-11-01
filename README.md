@@ -12,7 +12,7 @@ I know we'll build [a new world, a world of hope for ever after](https://github.
 
 # My Profile
 
-Hi, I am Tianle, a student from Singapore. On my GitHub is my projects typically using SGEXTN (my own extension layer over Qt Quick) and written in C++. Currently, I am working on ocuentation v1.0.0, a internal tool that generates code documentation and related materials without having to manually write Markdown or HTML.
+Hi, I am Tianle, a student from Singapore. On my GitHub is my projects typically using SGEXTN (my own extension layer over Qt Quick) and written in C++. Currently, I am working on _ocu_entation v1.0.0, a internal tool that generates code documentation and related materials without having to manually write Markdown or HTML.
 
 ## languages and tools
 
