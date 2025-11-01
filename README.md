@@ -12,15 +12,16 @@ I know we'll build [a new world, a world of hope for ever after](https://github.
 
 # My Profile
 
-Hi, I am Tianle, a student from Singapore. On my GitHub is my projects typically using SGEXTN (my own extension layer over Qt Quick) and written in C++. Currently, I am working on SGEXTN v6.0.0
+Hi, I am Tianle, a student from Singapore. On my GitHub is my projects typically using SGEXTN (my own extension layer over Qt Quick) and written in C++. Currently, I am working on ocuentation v1.0.0, a internal tool that generates code documentation and related materials without having to manually write Markdown or HTML.
 
 ## languages and tools
 
 💖 SGEXTN<br>
 💚 Qt framework<br>
 💚 Qt Quick<br>
-💚 QSB with GLSL<br>
+💚 GLSL (compiled with QSB)<br>
 💙 C++
+💙 CMake
 
 ## 05524F.sg
 
@@ -32,9 +33,7 @@ You may have noticed this organisation name in my applications. This is my "orga
 
 ### [SGEXTN](https://github.com/InfinityIntegral/SGEXTN) (work in progress)
 
-SGEXTN v6.0.0 is my wrapper around core Qt functionality (the stuff you need to build a basic application). With SGEXTN v6.0.0, you will not need to even include Qt headers at all (you still have to link the Qt DLL that matches the SGEXTN version you use). This means much faster compile times and clang-tidy runs because SGEXTN will have extremely clean header files. SGEXTN covers basic structs (colours, identifiers, timestamps, 2D vectors), the SGWidget GUI toolkit which internally uses Qt Quick to render, file system access APIs, wrappers around QChar and QString, a timer, and a dedicated class to programme renderers with the use of custom shaders. The SGWidget module, file system access, timer, and custom renders would be in separate DLLs. In future, I may decide to add zip file handling, screenshot functionality, web requests, and bluetooth communication. I kept promising SGEXTN would be ready for development but every time I wanted even more improvements, so no matter how good it is, SGEXTN WILL NOT BE READY FOR DEVELOPMENT USE until the documentation site, demo app, and maintenance tool are completed.
-
-Apart from the SGEXTN library itself, I also plan to rebuild Colours++, an application that I made for a school project. In addition to that I want to make a dedicated SGEXTN demo app with the theme "celebrating the heartlands" featuring references to Singaporean places and culture. I also plan to build a SGEXTN maintenance tool that checks my website for updates and asks the user to install them, just like the Qt maintenance tool.
+SGEXTN v6.0.0 is my wrapper around core Qt functionality (the stuff you need to build a basic application). With SGEXTN v6.0.0, you will not need to even include Qt headers or link Qt at all (you still have to provide the Qt DLL that matches the SGEXTN version you use though). This means much faster compile times and clang-tidy runs because SGEXTN will have extremely clean header files. SGEXTN covers basic structs (colours, identifiers, timestamps, 2D vectors), the SGWidget GUI toolkit which internally uses Qt Quick to render, file system access APIs, wrappers around QChar and QString, a timer, and a dedicated class to programme renderers with the use of custom shaders. The SGWidget module, file system access, and custom renders would be in separate DLLs. In future, I may decide to add zip file handling, web requests, and bluetooth communication. I kept promising SGEXTN would be ready for development but every time I wanted even more improvements, so no matter how good it is, SGEXTN WILL NOT BE READY FOR DEVELOPMENT USE until the documentation site and tests app is completed.
 
 ### [SingScript.sg](https://github.com/InfinityIntegral/SingScript.sg) (completed)
 
