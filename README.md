@@ -12,7 +12,7 @@ I know we'll build [a new world, a world of hope for ever after](https://github.
 
 # My Profile
 
-Hi, I am Tianle, a student from Singapore. Most of my projects on GitHub use [SGEXTN](https://infinityintegral.github.io/SGEXTN/readme/readme) (my own C++ application development framework). Currently, I am working on getting SGEXTN v6.0.0 ready for release.
+Hi, I am Tianle, a student from Singapore. Most of my projects on GitHub use [SGEXTN](https://infinityintegral.github.io/SGEXTN/readme/readme) (my own C++ application development framework). Currently, I am writing the full tutorial for SGEXTN.
 
 ## languages and tools
 
