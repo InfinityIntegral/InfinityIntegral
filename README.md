@@ -12,7 +12,7 @@ I know we'll build [a new world, a world of hope for ever after](https://github.
 
 # My Profile
 
-Hi, I am Tianle, a student from Singapore. Most of my projects on GitHub use [SGEXTN](https://infinityintegral.github.io/SGEXTN/readme/readme) (my own C++ application development framework). Currently, I am writing the full tutorial for SGEXTN.
+Hi, I am Tianle, a student from Singapore. Most of my projects on GitHub use [SGEXTN](https://infinityintegral.github.io/SGEXTN/readme/readme) (my own C++ application development framework). Currently, I am working on SGEXTN v6.1.0 which includes the BuildLah CMake integration and cross platform build and package automation.
 
 ## languages and tools
 
@@ -30,5 +30,5 @@ Hi, I am Tianle, a student from Singapore. Most of my projects on GitHub use [SG
 You may see this organisation name in my applications. This is my "organisation name" for my own projects. The mission of 05524F is to build free and open source software for everyone in Singapore and beyond.
 
 05524F projects include:
-- [SGEXTN](https://infinityintegral.github.io/SGEXTN/readme/readme) - C++ application development framework (actively maintained, at v6.0.0) ([GitHub repository](https://github.com/InfinityIntegral/SGEXTN))
+- [SGEXTN](https://infinityintegral.github.io/SGEXTN/readme/readme) - C++ application development framework (actively maintained, at v6.0.1) ([GitHub repository](https://github.com/InfinityIntegral/SGEXTN))
 - SingScript.sg - font to display Math and Science symbols (completed, at v2.0.0) ([GitHub repository](https://github.com/InfinityIntegral/SingScript.sg))
