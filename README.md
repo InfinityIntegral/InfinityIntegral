@@ -19,8 +19,9 @@ Hi, I am Tianle, a student from Singapore. Most of my projects on GitHub use [SG
 💖 SGEXTN  
 💚 Qt framework  
 💚 Qt Quick  
-💚 GLSL (compiled with QSB)
+💚 GLSL (compiled with QSB)  
 💙 C++  
+💙 CMake  
   
 ## Project 05524F
 
