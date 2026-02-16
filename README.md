@@ -10,6 +10,8 @@ I know we'll build [a new world, a world of hope for ever after](https://github.
 
 (We Will Get There, NDP 2002)
 
+# NOTICE: due to the amount of homework I have, all GitHub activity will be paused until March holidays
+
 # My Profile
 
 Hi, I am Tianle, a student from Singapore. Most of my projects on GitHub use [SGEXTN](https://infinityintegral.github.io/SGEXTN/readme/readme) (my own C++ application development framework). Currently, I am working on SGEXTN v7.0.0 which will have unit tests and use namespaces properly
