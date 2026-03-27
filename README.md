@@ -10,7 +10,7 @@ I know we'll build [a new world, a world of hope for ever after](https://github.
 
 (We Will Get There, NDP 2002)
 
-# NOTICE: due to the amount of homework I have, all GitHub activity will be paused until March holidays
+# NOTICE: due to the amount of homework I have, all GitHub activity will be paused until school holidays. When I have a bit of time, I would still code, but that code will not be visible as contribution since it is on version7 (not main) branch of SGEXTN
 
 # My Profile
 
