@@ -1,0 +1,108 @@
+# temporary script, will build a proper app for this later probably, probably has a lot of bugs cos AI wrote it
+
+import os
+import re
+
+def to_bold_script(char: str) -> str:
+    """Algorithmically maps ASCII alphanumeric characters to Unicode Mathematical Bold Script."""
+    code = ord(char)
+    
+    # Uppercase A-Z -> Mathematical Bold Script Capital A (U+1D4D0)
+    if 65 <= code <= 90:  
+        return chr(0x1D4D0 + (code - 65))
+    
+    # Lowercase a-z -> Mathematical Bold Script Small a (U+1D4EA)
+    elif 97 <= code <= 122: 
+        return chr(0x1D4EA + (code - 97))
+    
+    # Digits 0-9 -> Mathematical Bold Digit 0 (U+1D7CE)
+    elif 48 <= code <= 57:  
+        return chr(0x1D7CE + (code - 48))
+    
+    return char
+
+def escape_latex_content(token: str) -> str:
+    """Escapes special LaTeX characters using the musical sharp symbol for '#'."""
+    # 1. Swap '#' with Unicode Musical Sharp (U+266F)
+    token = token.replace("#", "♯")
+    
+    # 2. Standard character escaping (no backslash handling)
+    token = token.replace("{", r"\{")
+    token = token.replace("}", r"\}")
+    token = token.replace("%", r"\%")
+    token = token.replace("$", r"\$")
+    token = token.replace("&", r"\&")
+    token = token.replace("_", r"\_")
+    token = token.replace("~", r"\text{\textasciitilde}")
+    token = token.replace("^", r"\text{\textasciicircum}")
+    
+    return token
+
+def transform_token(token: str, is_header_line: bool) -> str:
+    """Processes Group 3 & Group 4 tokens."""
+    # Group 4: Hyphen/Dash replacement with small unicode heart
+    if token == "-":
+        return r"$\color[rgb]{0.7, 0.0, 0.55}{\text{♥}}$"
+
+    # Group 3: Perform letter swapping ONLY if on a header line
+    if is_header_line:
+        converted = "".join(to_bold_script(ch) for ch in token)
+    else:
+        converted = token
+
+    # Escape LaTeX control symbols safely
+    safe_converted = escape_latex_content(converted)
+
+    # Properly enclosed with opening and closing '$'
+    return f"$\\color[rgb]{{0.7, 0.0, 0.55}}{{\\text{{{safe_converted}}}}}$"
+
+def process_line(line: str) -> str:
+    # Split line into tokens: whitespace, pure '#' sequences, or general words
+    tokens = re.findall(r'[ \t\r\n]+|[^ \t\r\n]+', line)
+    
+    # Check if the line is a header (first non-whitespace token is purely '#')
+    is_header_line = False
+    for tok in tokens:
+        if tok.strip():
+            if re.match(r'^#+$', tok):
+                is_header_line = True
+            break
+
+    output_line = []
+    for token in tokens:
+        # Group 1: Tab --> emit 4 spaces
+        if "\t" in token:
+            output_line.append(token.replace("\t", "    "))
+        
+        # Group 0: Spaces, Newlines, single '<br>', or tokens consisting ONLY of '#'
+        elif re.match(r'^(?:[ \r\n]+|<br>|#+)$', token, re.IGNORECASE):
+            output_line.append(token)
+            
+        # Group 2: Contains '@@@' --> remove '@@@' and emit as-is
+        elif "@@@" in token:
+            output_line.append(token.replace("@@@", ""))
+            
+        # Groups 3 & 4: Other tokens & '-' -> Process via transform_token
+        else:
+            output_line.append(transform_token(token, is_header_line))
+
+    return "".join(output_line)
+
+def main():
+    script_dir = os.path.dirname(os.path.abspath(__file__))
+    input_path = os.path.join(script_dir, "boring.md")
+    output_path = os.path.join(script_dir, "README.md")
+
+    # Read UTF-8 (utf-8-sig automatically strips BOM if present)
+    with open(input_path, "r", encoding="utf-8-sig") as f:
+        lines = f.readlines()
+
+    # Process line by line
+    processed_lines = [process_line(line) for line in lines]
+
+    # Write clean UTF-8 without BOM
+    with open(output_path, "w", encoding="utf-8") as f:
+        f.writelines(processed_lines)
+
+if __name__ == "__main__":
+    main()
