@@ -1,4 +1,4 @@
-![image of Singapore flag emoji](flag.gif)
+![image of Singapore flag emoji](flag.png)
 
 $\color[rgb]{0.7, 0.0, 0.55}{\text{We}}$ $\color[rgb]{0.7, 0.0, 0.55}{\text{can}}$ $\color[rgb]{0.7, 0.0, 0.55}{\text{be}}$ $\color[rgb]{0.7, 0.0, 0.55}{\text{the}}$ $\color[rgb]{0.7, 0.0, 0.55}{\text{light}}$ <br>
 $\color[rgb]{0.7, 0.0, 0.55}{\text{For}}$ $\color[rgb]{0.7, 0.0, 0.55}{\text{the}}$ $\color[rgb]{0.7, 0.0, 0.55}{\text{world}}$ $\color[rgb]{0.7, 0.0, 0.55}{\text{to}}$ $\color[rgb]{0.7, 0.0, 0.55}{\text{be}}$ $\color[rgb]{0.7, 0.0, 0.55}{\text{better}}$ <br>
